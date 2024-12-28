@@ -6,7 +6,7 @@
   --hue: 0;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --title-color-dark: black ;
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
@@ -152,4 +152,22 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+
+@media screen and (max-width:992px){
+  .container{
+    margin-left:var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+
+  }
+}
+@media screen and (max-width:768px){}
+@media screen and (max-width:576px){}
+@media screen and (max-width:350px){
+  .container{
+    margin-left:var(--mb-1);
+    margin-right: var(--mb-1);
+    
+  }
 }
