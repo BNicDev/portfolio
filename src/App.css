@@ -3,7 +3,7 @@
 :root {
   --header-height: 3rem;
 
-  --hue: 0;
+  --hue: 0%;
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: black ;
@@ -134,8 +134,9 @@ img {
 
 /* Buttons */
 .button {
+  border-radius: 10px;
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: grey;
   color: var(--container-color);
   padding: 1.25rem 2rem;
   font-weight: var(--font-medium);
